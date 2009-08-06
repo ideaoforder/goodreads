@@ -20,6 +20,7 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "goodreads.gemspec",
      "lib/goodreads.rb",
      "test/goodreads_test.rb",
      "test/test_helper.rb"
