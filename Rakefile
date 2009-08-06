@@ -5,11 +5,12 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "goodreads"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
-    gem.email = "dicksonm@med.umich.edu"
+    gem.summary = "Uses the Goodreads API to grab your book reviews"
+    gem.description = "Uses the Goodreads API to grab your book reviews. Takes all the standard Goodreads arguments. This gem is currently just a baby, and will may include more features over time. For now, it's mainly meant to allow folks to show their books and reviews on a website/blog."
+    gem.email = "mark@sitesteaders.com"
     gem.homepage = "http://github.com/ideaoforder/goodreads"
     gem.authors = ["Mark Dickson"]
+    gem.add_dependency('httparty', '>= 0.4.4')
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 
