@@ -1,6 +1,15 @@
 = goodreads
 
-Description goes here.
+This gem allows you to connect to your goodreads bookshelves and reviews. Currently, no write write operations are supported--it's just meant to grab your books/reviews to display them on your website/blog. It is in no way meant to be exhaustive--fork away!
+ 
+== Configuration
+You'll need a goodreads.yml file in config, with:
+	:user_id:
+and optionally
+	:api_key:
+which you'll have to apply for. The developer key allows you to perform actions which require authentication, none of which are currently used in this plugin. If you'd like more functionality, check out: http://www.goodreads.com/api and fork the project.
+
+Cheers!
 
 == Note on Patches/Pull Requests
  
